@@ -12,11 +12,27 @@
           "src/main/java/com/corrinedev/contagionassets/item/CleaverItem.java"
         ]
       }
+    },
+    {
+      "name": "Hatchet",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hatchet",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cc/models/item/hatchet.json",
+          "src/main/java/com/corrinedev/contagionassets/item/HatchetItem.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {
+    "ITEMS:minecraft:axes": [
+      "~CUSTOM:Hatchet"
+    ],
     "ITEMS:minecraft:swords": [
       "~CUSTOM:Cleaver"
     ]
@@ -24,6 +40,7 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
+      "item.cc.hatchet": "Hatchet",
       "item.cc.cleaver": "Cleaver"
     }
   },
