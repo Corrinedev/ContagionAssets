@@ -26,6 +26,9 @@ import java.util.Collection;
 import java.util.ArrayList;
 import java.util.AbstractMap;
 
+import com.corrinedev.contagionassets.init.CcModTabs;
+import com.corrinedev.contagionassets.init.CcModItems;
+
 @Mod("cc")
 public class CcMod {
 	public static final Logger LOGGER = LogManager.getLogger(CcMod.class);
@@ -36,6 +39,10 @@ public class CcMod {
 		// End of user code block mod constructor
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+
+		CcModItems.REGISTRY.register(bus);
+
+		CcModTabs.REGISTRY.register(bus);
 
 		// Start of user code block mod init
 		// End of user code block mod init

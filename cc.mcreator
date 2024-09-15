@@ -1,11 +1,31 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "Cleaver",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cleaver",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cc/models/item/cleaver.json",
+          "src/main/java/com/corrinedev/contagionassets/item/CleaverItem.java"
+        ]
+      }
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
-  "tag_elements": {},
+  "tag_elements": {
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:Cleaver"
+    ]
+  },
   "tab_element_order": {},
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "item.cc.cleaver": "Cleaver"
+    }
   },
   "foldersRoot": {
     "name": "~",
