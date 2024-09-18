@@ -27,6 +27,7 @@ public class CcModTabs {
 			tabData.accept(CcModItems.BROKEN_BASEBALL_BAT.get());
 			tabData.accept(CcModItems.WRAPPED_BASEBALL_BAT.get());
 			tabData.accept(CcModItems.CLAW_HAMMER.get());
+			tabData.accept(CcModItems.PIPE.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(CcModItems.HATCHET.get());
 			tabData.accept(CcModItems.HAND_SAW.get());

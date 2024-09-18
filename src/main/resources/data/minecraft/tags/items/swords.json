@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "cc:pipe",
     "cc:claw_hammer",
     "cc:switch_knife",
     "cc:wrapped_baseball_bat",

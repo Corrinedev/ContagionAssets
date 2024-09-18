@@ -103,6 +103,19 @@
           "src/main/java/com/corrinedev/contagionassets/item/ClawHammerItem.java"
         ]
       }
+    },
+    {
+      "name": "Pipe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pipe",
+      "metadata": {
+        "files": [
+          "src/main/java/com/corrinedev/contagionassets/item/PipeItem.java",
+          "src/main/resources/assets/cc/models/item/pipe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -113,6 +126,7 @@
       "~CUSTOM:Hatchet"
     ],
     "ITEMS:minecraft:swords": [
+      "~CUSTOM:Pipe",
       "~CUSTOM:ClawHammer",
       "~CUSTOM:SwitchKnife",
       "~CUSTOM:WrappedBaseballBat",
@@ -127,6 +141,7 @@
       "item.cc.hatchet": "Hatchet",
       "item.cc.wrapped_baseball_bat": "Wrapped Baseball Bat",
       "item.cc.broken_baseball_bat": "Broken Baseball Bat",
+      "item.cc.pipe": "Pipe",
       "item.cc.switch_knife": "Switch Knife",
       "item.cc.cleaver": "Cleaver",
       "item.cc.claw_hammer": "Claw Hammer",
