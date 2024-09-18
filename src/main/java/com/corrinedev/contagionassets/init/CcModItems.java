@@ -11,9 +11,11 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraft.world.item.Item;
 
 import com.corrinedev.contagionassets.item.WrappedBaseballBatItem;
+import com.corrinedev.contagionassets.item.SwitchKnifeItem;
 import com.corrinedev.contagionassets.item.HatchetItem;
 import com.corrinedev.contagionassets.item.HandSawItem;
 import com.corrinedev.contagionassets.item.CleaverItem;
+import com.corrinedev.contagionassets.item.ClawHammerItem;
 import com.corrinedev.contagionassets.item.BrokenBaseballBatItem;
 import com.corrinedev.contagionassets.item.BaseballBatItem;
 import com.corrinedev.contagionassets.CcMod;
@@ -26,6 +28,8 @@ public class CcModItems {
 	public static final RegistryObject<Item> BASEBALL_BAT = REGISTRY.register("baseball_bat", () -> new BaseballBatItem());
 	public static final RegistryObject<Item> BROKEN_BASEBALL_BAT = REGISTRY.register("broken_baseball_bat", () -> new BrokenBaseballBatItem());
 	public static final RegistryObject<Item> WRAPPED_BASEBALL_BAT = REGISTRY.register("wrapped_baseball_bat", () -> new WrappedBaseballBatItem());
+	public static final RegistryObject<Item> SWITCH_KNIFE = REGISTRY.register("switch_knife", () -> new SwitchKnifeItem());
+	public static final RegistryObject<Item> CLAW_HAMMER = REGISTRY.register("claw_hammer", () -> new ClawHammerItem());
 	// Start of user code block custom items
 	// End of user code block custom items
 }
