@@ -3,28 +3,28 @@ package com.corrinedev.contagionassets.item;
 
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.Tier;
-import net.minecraft.world.item.Items;
-import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.SwordItem;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.AxeItem;
+import net.minecraft.tags.ItemTags;
+import net.minecraft.resources.ResourceLocation;
 
-public class HatchetItem extends AxeItem {
-	public HatchetItem() {
+public class WrappedBaseballBatItem extends SwordItem {
+	public WrappedBaseballBatItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 200;
+				return 300;
 			}
 
 			public float getSpeed() {
-				return 5f;
+				return 2f;
 			}
 
 			public float getAttackDamageBonus() {
-				return 5f;
+				return 1f;
 			}
 
 			public int getLevel() {
-				return 1;
+				return 0;
 			}
 
 			public int getEnchantmentValue() {
@@ -32,8 +32,8 @@ public class HatchetItem extends AxeItem {
 			}
 
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of(new ItemStack(Items.IRON_INGOT));
+				return Ingredient.of(ItemTags.create(new ResourceLocation("minecraft:planks")));
 			}
-		}, 1, -2.9f, new Item.Properties());
+		}, 3, -2.2f, new Item.Properties());
 	}
 }

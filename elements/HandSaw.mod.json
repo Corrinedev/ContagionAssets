@@ -5,10 +5,10 @@
     "toolType": "Axe",
     "renderType": 0,
     "blockingRenderType": 0,
-    "texture": "hatchet",
+    "texture": "saw",
     "customModelName": "Normal",
     "blockingModelName": "Normal blocking",
-    "name": "Hatchet",
+    "name": "Hand Saw",
     "specialInformation": {
       "fixedValue": []
     },
@@ -17,11 +17,11 @@
         "value": "TOOLS"
       }
     ],
-    "efficiency": 5.0,
-    "attackSpeed": 1.0999999999999999,
+    "efficiency": 4.0,
+    "attackSpeed": 2.0,
     "enchantability": 2,
-    "damageVsEntity": 7.0,
-    "usageCount": 200,
+    "damageVsEntity": 4.5,
+    "usageCount": 500,
     "glowCondition": {
       "fixedValue": false
     },
@@ -31,9 +31,9 @@
       }
     ],
     "immuneToFire": false,
-    "blockDropsTier": "STONE",
+    "blockDropsTier": "WOOD",
     "blocksAffected": [],
-    "stayInGridWhenCrafting": false,
-    "damageOnCrafting": false
+    "stayInGridWhenCrafting": true,
+    "damageOnCrafting": true
   }
 }

@@ -1,4 +1,8 @@
 {
   "item.cc.hatchet": "Hatchet",
-  "item.cc.cleaver": "Cleaver"
+  "item.cc.wrapped_baseball_bat": "Wrapped Baseball Bat",
+  "item.cc.broken_baseball_bat": "Broken Baseball Bat",
+  "item.cc.cleaver": "Cleaver",
+  "item.cc.baseball_bat": "Baseball Bat",
+  "item.cc.hand_saw": "Hand Saw"
 }

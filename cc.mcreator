@@ -8,8 +8,8 @@
       "registry_name": "cleaver",
       "metadata": {
         "files": [
-          "src/main/resources/assets/cc/models/item/cleaver.json",
-          "src/main/java/com/corrinedev/contagionassets/item/CleaverItem.java"
+          "src/main/java/com/corrinedev/contagionassets/item/CleaverItem.java",
+          "src/main/resources/assets/cc/models/item/cleaver.json"
         ]
       }
     },
@@ -25,15 +25,71 @@
           "src/main/java/com/corrinedev/contagionassets/item/HatchetItem.java"
         ]
       }
+    },
+    {
+      "name": "HandSaw",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hand_saw",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cc/models/item/hand_saw.json",
+          "src/main/java/com/corrinedev/contagionassets/item/HandSawItem.java"
+        ]
+      }
+    },
+    {
+      "name": "BaseballBat",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baseball_bat",
+      "metadata": {
+        "files": [
+          "src/main/java/com/corrinedev/contagionassets/item/BaseballBatItem.java",
+          "src/main/resources/assets/cc/models/item/baseball_bat.json"
+        ]
+      }
+    },
+    {
+      "name": "BrokenBaseballBat",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "broken_baseball_bat",
+      "metadata": {
+        "files": [
+          "src/main/java/com/corrinedev/contagionassets/item/BrokenBaseballBatItem.java",
+          "src/main/resources/assets/cc/models/item/broken_baseball_bat.json"
+        ]
+      }
+    },
+    {
+      "name": "WrappedBaseballBat",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wrapped_baseball_bat",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cc/models/item/wrapped_baseball_bat.json",
+          "src/main/java/com/corrinedev/contagionassets/item/WrappedBaseballBatItem.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {
     "ITEMS:minecraft:axes": [
+      "~CUSTOM:HandSaw",
       "~CUSTOM:Hatchet"
     ],
     "ITEMS:minecraft:swords": [
+      "~CUSTOM:WrappedBaseballBat",
+      "~CUSTOM:BrokenBaseballBat",
+      "~CUSTOM:BaseballBat",
       "~CUSTOM:Cleaver"
     ]
   },
@@ -41,7 +97,11 @@
   "language_map": {
     "en_us": {
       "item.cc.hatchet": "Hatchet",
-      "item.cc.cleaver": "Cleaver"
+      "item.cc.wrapped_baseball_bat": "Wrapped Baseball Bat",
+      "item.cc.broken_baseball_bat": "Broken Baseball Bat",
+      "item.cc.cleaver": "Cleaver",
+      "item.cc.baseball_bat": "Baseball Bat",
+      "item.cc.hand_saw": "Hand Saw"
     }
   },
   "foldersRoot": {

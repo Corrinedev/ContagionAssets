@@ -23,8 +23,12 @@ public class CcModTabs {
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
 		if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
 			tabData.accept(CcModItems.CLEAVER.get());
+			tabData.accept(CcModItems.BASEBALL_BAT.get());
+			tabData.accept(CcModItems.BROKEN_BASEBALL_BAT.get());
+			tabData.accept(CcModItems.WRAPPED_BASEBALL_BAT.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(CcModItems.HATCHET.get());
+			tabData.accept(CcModItems.HAND_SAW.get());
 		}
 	}
 }

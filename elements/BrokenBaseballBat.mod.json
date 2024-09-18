@@ -2,36 +2,36 @@
   "_fv": 66,
   "_type": "tool",
   "definition": {
-    "toolType": "Axe",
+    "toolType": "Sword",
     "renderType": 0,
     "blockingRenderType": 0,
-    "texture": "hatchet",
+    "texture": "brokenbaseballbat",
     "customModelName": "Normal",
     "blockingModelName": "Normal blocking",
-    "name": "Hatchet",
+    "name": "Broken Baseball Bat",
     "specialInformation": {
       "fixedValue": []
     },
     "creativeTabs": [
       {
-        "value": "TOOLS"
+        "value": "COMBAT"
       }
     ],
-    "efficiency": 5.0,
-    "attackSpeed": 1.0999999999999999,
+    "efficiency": 2.0,
+    "attackSpeed": 2.0,
     "enchantability": 2,
-    "damageVsEntity": 7.0,
-    "usageCount": 200,
+    "damageVsEntity": 3.5,
+    "usageCount": 100,
     "glowCondition": {
       "fixedValue": false
     },
     "repairItems": [
       {
-        "value": "Items.IRON_INGOT"
+        "value": "Blocks.PLANKS"
       }
     ],
     "immuneToFire": false,
-    "blockDropsTier": "STONE",
+    "blockDropsTier": "WOOD",
     "blocksAffected": [],
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false

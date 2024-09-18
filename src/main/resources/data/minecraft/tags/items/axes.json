@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "cc:hand_saw",
     "cc:hatchet"
   ]
 }

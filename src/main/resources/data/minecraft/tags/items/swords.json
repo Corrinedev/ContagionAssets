@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
+    "cc:wrapped_baseball_bat",
+    "cc:broken_baseball_bat",
+    "cc:baseball_bat",
     "cc:cleaver"
   ]
 }

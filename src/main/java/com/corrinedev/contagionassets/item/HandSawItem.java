@@ -8,23 +8,23 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.AxeItem;
 
-public class HatchetItem extends AxeItem {
-	public HatchetItem() {
+public class HandSawItem extends AxeItem {
+	public HandSawItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 200;
+				return 500;
 			}
 
 			public float getSpeed() {
-				return 5f;
+				return 4f;
 			}
 
 			public float getAttackDamageBonus() {
-				return 5f;
+				return 2.5f;
 			}
 
 			public int getLevel() {
-				return 1;
+				return 0;
 			}
 
 			public int getEnchantmentValue() {
@@ -34,6 +34,26 @@ public class HatchetItem extends AxeItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(Items.IRON_INGOT));
 			}
-		}, 1, -2.9f, new Item.Properties());
+		}, 1, -2f, new Item.Properties());
+	}
+
+	@Override
+	public boolean hasCraftingRemainingItem(ItemStack stack) {
+		return true;
+	}
+
+	@Override
+	public ItemStack getCraftingRemainingItem(ItemStack itemstack) {
+		ItemStack retval = new ItemStack(this);
+		retval.setDamageValue(itemstack.getDamageValue() + 1);
+		if (retval.getDamageValue() >= retval.getMaxDamage()) {
+			return ItemStack.EMPTY;
+		}
+		return retval;
+	}
+
+	@Override
+	public boolean isRepairable(ItemStack itemstack) {
+		return false;
 	}
 }
